@@ -1,4 +1,4 @@
-from database import obtener_empleados, insertar_empleado, seleccionar_empleado, borrar_empleados, actualizar_empleado
+from database import obtener_empleados, insertar_empleado, seleccionar_empleado, borrar_empleados, actualizar_empleado, crear_tabla
 options = ""
 
 def pause():
@@ -77,6 +77,8 @@ while True:
     print("4. Eliminar empleado")
     print("5. Actualizar empleado")
     print("6. Salir del programa")
+
+    crear_tabla()
 
     options = input("Elige una opcion: ")
     if options == "1":

@@ -1,6 +1,6 @@
 import sqlite3
 
-def crear_table():
+def crear_tabla():
     conexion = sqlite3.connect("empleados.db")
 
     cursor = conexion.cursor()
